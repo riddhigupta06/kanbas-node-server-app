@@ -8,10 +8,10 @@ const assignment = {
 };
 
 const todos = [
-    { id: 1, title: "Task 1", completed: false },
-    { id: 2, title: "Task 2", completed: false },
-    { id: 3, title: "Task 3", completed: false },
-    { id: 4, title: "Task 4", completed: false },
+    { id: 1, title: "Task 1", completed: false, description: '', due: '' },
+    { id: 2, title: "Task 2", completed: false, description: '', due: '' },
+    { id: 3, title: "Task 3", completed: false, description: '', due: '' },
+    { id: 4, title: "Task 4", completed: false, description: '', due: '' },
 ];
   
 
@@ -71,6 +71,7 @@ const Lab5 = (app) => {
         assignment.completed = newCompleted == 'true';
         res.json(assignment);
     });
+
     app.get("/a5/todos", (req, res) => {
         const { completed } = req.query;
         if (completed !== undefined) {
@@ -81,42 +82,94 @@ const Lab5 = (app) => {
         }
         res.json(todos);
     });
-    app.get("/a5/todos/create", (req, res) => {
+    app.post("/a5/todos", (req, res) => {
         const newTodo = {
-            id: new Date().getTime(),
-            title: "New Task",
-            completed: false,
+          ...req.body,
+          id: new Date().getTime(),
         };
         todos.push(newTodo);
-        res.json(todos);
+        res.json(newTodo);
     });
     app.get("/a5/todos/:id", (req, res) => {
         const { id } = req.params;
         const todo = todos.find((t) => t.id === parseInt(id));
+        if (!todo) {
+            res
+            .status(404)
+            .json({ message: `Unable to find Todo with ID ${id}` });
+            return;
+        }
         res.json(todo);
     });
-    app.get("/a5/todos/:id/delete", (req, res) => {
+    app.delete("/a5/todos/:id", (req, res) => {
         const { id } = req.params;
         const todo = todos.find((t) => t.id === parseInt(id));
+        if (!todo) {
+            res
+            .status(404)
+            .json({ message: `Unable to delete Todo with ID ${id}` });
+            return;
+        }
         todos.splice(todos.indexOf(todo), 1);
-        res.json(todos);
+        res.sendStatus(200);
+    });
+    app.put("/a5/todos/:id", (req, res) => {
+        const { id } = req.params;
+        const todo = todos.find((t) => t.id === parseInt(id));
+        if (!todo) {
+            res
+            .status(404)
+            .json({ message: `Unable to update Todo with ID ${id}` });
+            return;
+        }
+        todo.title = req.body.title;
+        todo.description = req.body.description;
+        todo.due = req.body.due;
+        todo.completed = req.body.completed;
+        res.sendStatus(200);
     });
     app.get("/a5/todos/:id/title/:title", (req, res) => {
         const { id, title } = req.params;
         const todo = todos.find((t) => t.id === parseInt(id));
+        if (!todo) {
+            res
+            .status(404)
+            .json({ message: `Unable to update title for Todo with ID ${id}` });
+        }
         todo.title = title;
         res.json(todos);
     });    
     app.get("/a5/todos/:id/completed/:newCompleted", (req, res) => {
         const { id, newCompleted } = req.params;
         const todo = todos.find((t) => t.id === parseInt(id));
+        if (!todo) {
+            res
+            .status(404)
+            .json({ message: `Unable to update completed for Todo with ID ${id}` });
+        }
         todo.completed = newCompleted == 'true';
         res.json(todos);
     });
     app.get("/a5/todos/:id/description/:newDescription", (req, res) => {
         const { id, newDescription } = req.params;
         const todo = todos.find((t) => t.id === parseInt(id));
+        if (!todo) {
+            res
+            .status(404)
+            .json({ message: `Unable to update description for Todo with ID ${id}` });
+        }
         todo.description = newDescription;
+        res.json(todos);
+    });
+    app.get("/a5/todos/:id/due/:newDue", (req, res) => {
+        const { id, newDue } = req.params;
+        const todo = todos.find((t) => t.id === parseInt(id));
+        if (!todo) {
+            res
+            .status(404)
+            .json({ message: `Unable to update due date for Todo with ID ${id}` });
+        }
+        todo.due = newDue;
         res.json(todos);
     });
 };

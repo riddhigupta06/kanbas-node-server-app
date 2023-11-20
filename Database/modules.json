@@ -1,0 +1,435 @@
+[
+    {
+      "_id": "M101",
+      "name": "Resources",
+      "description": "Module 1 description",
+      "course": "CS101",
+      "lessons": [
+        {
+          "title": "Syllabus",
+          "link": "https://docs.google.com/document/d/1nGMcyRG7kyKehCrVlyvsYXIQboepQwKo23tYoFgJlJU/edit#heading=h.ayxjgsfmhumv",
+          "lessons": []
+        },
+        {
+          "title": "Undergraduate Calendar",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Office Hours",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "_id": "M103",
+      "name": "Week 0 - INTRO",
+      "description": "Module 2 description",
+      "course": "CS101",
+      "lessons": [
+        {
+          "title": "LEARNING OBJECTIVES",
+          "link": "",
+          "lessons": [
+            {
+              "title": "Introdution to the course",
+              "link": ""
+            },
+            {
+              "title": "Learn what is web development",
+              "link": ""
+            },
+            {
+              "title": "Creating a development environment",
+              "link": ""
+            },
+            {
+              "title": "Creating a web application",
+              "link": ""
+            },
+            {
+              "title": "Getting started with the first assignment",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "title": "READING",
+          "link": "",
+          "lessons": [
+            {
+              "title": "Full Stack Developer - Chapter 1 - Introduction",
+              "link": ""
+            },
+            {
+              "title": "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "title": "SLIDES",
+          "link": "",
+          "lessons": [
+            {
+              "title": "Intro to Web Development",
+              "link": "https://docs.google.com/presentation/d/1yb_fQd5MhVuFczb5F5II0CoDkVJALFqxUnuwPAXiOAU/edit?usp=sharing"
+            },
+            {
+              "title": "Creating a React application",
+              "link": "https://docs.google.com/presentation/d/10B3jLiJ8-HMsA6TPq9JuWfJzsvX9SFnYVuhthrQbFwU/edit?usp=sharing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "M104",
+      "name": "Week 1 - HTML",
+      "description": "Module 3 description",
+      "course": "CS101",
+      "lessons": [
+        {
+          "title": "LEARNING OBJECTIVES",
+          "link": "",
+          "lessons": [
+            {
+              "title": "Learn how to create user interfaces with HTML",
+              "link": ""
+            },
+            {
+              "title": "Keep working on assignment 1",
+              "link": ""
+            },
+            {
+              "title": "Deploy the assignment to Netlify",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "title": "READING",
+          "link": "",
+          "lessons": [
+            {
+              "title": "Full Stack Developer - Chapter 1 - Introduction",
+              "link": ""
+            },
+            {
+              "title": "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "title": "SLIDES",
+          "link": "",
+          "lessons": [
+            {
+              "title": "Introduction to HTML and the DOM",
+              "link": "https://docs.google.com/presentation/d/1EgHSRyWc5ylFgKEOaiKnQVTV3QT_FL2M6w3EjeKRh64/edit?usp=sharing"
+            },
+            {
+              "title": "Creating web forms",
+              "link": "https://docs.google.com/presentation/d/1jzWnHG3Xn6UZ5FAqNfC3kqA87XbwhEXHSvWGIUzKS7c/edit?usp=sharing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "M201",
+      "name": "Module 1 | Introduction to Model United Nations",
+      "description": "Module 1 description",
+      "course": "CS102",
+      "lessons": [
+        {
+          "title": "Introduction to Model United Nations",
+          "link": "",
+          "lessons": [
+            {
+              "title": "Module Video | How Does the United Nations Work?",
+              "link": ""
+            },
+            {
+              "title": "Module Reading | What is the UN.pdf",
+              "link": ""
+            },
+            {
+              "title": "Module Video | What is Model United Nations?",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "title": "Optional Video | The United Nations System",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "_id": "M202",
+      "name": "Module 2 | Researching and Writing for Model United Nations",
+      "description": "Module 2 description",
+      "course": "CS102",
+      "lessons": [
+        {
+          "title": "Researching and Writing for Model United Nations",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Tech Guide and Research Links | Getting Started in POLS 4910",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "NEU Library Subject guide - Country Information Page",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Six quick tips to improve your searching",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "_id": "M203",
+      "name": "Module 3 | Preparing for Debate",
+      "description": "Module 3 description",
+      "course": "CS102",
+      "lessons": [
+        {
+          "title": "Basics of Model UN Debate",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Module Reading | MUN Handbook Overview",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Rules of Procedure - Updated.docx",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "_id": "M204",
+      "name": "Module 4 | Topic 1 and Experiential Learning",
+      "description": "Module 4 description",
+      "course": "CS102",
+      "lessons": [
+        {
+          "title": "Topic 1 and Experiential Learning Opportunities",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "NERMAL Information",
+          "link": "https://ncusar.org/modelarableague/conferences/nermal/",
+          "lessons": [
+            {
+              "title": "Model Arab League Handbook for Reference",
+              "link": "https://ncusar.org/modelarableague/wordpress/wp-content/uploads/2012/08/MAL-Handbook-FINAL-2.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Group Topic Guide Presentation Instructions",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Group Topic Guide Instructions and Template",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "_id": "M301",
+      "name": "Lecture 1 (Unit 1: Introduction)",
+      "description": "Module 1 description",
+      "course": "CS103",
+      "lessons": [
+        {
+          "title": "BeforeSlides-Lec1-Administrivia-Puzzles-AnalyzingAlgorithms.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "950-AfterSlides-Lec1-Administrivia-Puzzles-AnalyzingAlgorithms.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Drew135-AfterSlides-Lec1-Administrivia-Puzzles-AnalyzingAlgorithms.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Rajmohan-AfterSlides-Lec1-Administrivia-Puzzles-AnalyzingAlgorithms.pdf",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "_id": "M302",
+      "name": "Lecture 2 (Unit 2: Divide & Conquer)",
+      "description": "Module 2 description",
+      "course": "CS103",
+      "lessons": [
+        {
+          "title": "BeforeSlides-Lec2-SortingAsymptoticNotation.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "950-AfterSlides-Lec2-SortingAsymptoticNotation.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "135Drew-AfterSlides-Lec2-SortingAsymptoticNotation.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "HuyAfterSlides-Lec2-SortingAsymptoticNotation.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "RajmohanAfterSlides-Lec2-SortingAsymptoticNotation.pdf",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "_id": "M303",
+      "name": " Lecture 3 (Unit 2)",
+      "description": "Module 3 description",
+      "course": "CS103",
+      "lessons": [
+        {
+          "title": "BeforeSlides-Lec3-MergesortAsymptoticNotation.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "950-AfterSlides-Lec3-MergesortAsymptoticNotation.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "135Drew-AfterSlides-Lec3-MergesortAsymptoticNotation.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "HuyAfterSlides-Lec3-MergesortAsymptoticNotation.pdf",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "RajmohanAfterSlides-Lec3-MergesortAsymptoticNotation.pdf",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "_id": "M401",
+      "name": "Why Theatre?",
+      "description": "Module 1 description",
+      "course": "CS104",
+      "lessons": [
+        {
+          "title": "Play Group Preferences",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Why Study Theatre?",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "The Role of Theatre",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Three Requirements of Theatre",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Agamemnon",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "_id": "M402",
+      "name": "Dramatic Structure",
+      "description": "Module 2 description",
+      "course": "CS104",
+      "lessons": [
+        {
+          "title": "Oedipus Tyrannus background",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Aristotle's Six Elements of Tragedy",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "_id": "M403",
+      "name": "Style",
+      "description": "Module 3 description",
+      "course": "CS104",
+      "lessons": [
+        {
+          "title": "Characteristics of Realism",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Characteristics of Theatricalism",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Theatricalism in Angels in America",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Primer on Marat/Sade",
+          "link": "",
+          "lessons": []
+        },
+        {
+          "title": "Video lecture: Style in Marat/Sade",
+          "link": "",
+          "lessons": []
+        }
+      ]
+    }
+]
+  

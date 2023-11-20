@@ -1,0 +1,39 @@
+[
+    {
+      "_id": "CS101",
+      "title": "CS4550.19753.202410",
+      "name": "Web Development",
+      "number": "CS4550",
+      "section": "19753",
+      "term": "Fall 2023 Semester",
+      "color": "chocolate"
+    },
+    {
+      "_id": "CS102",
+      "title": "POLS4910.12320.202410",
+      "name": "Model United Nations",
+      "number": "POLS4910",
+      "section": "12320",
+      "term": "Fall 2023 Semester",
+      "color": "midnightblue"
+    },
+    {
+      "_id": "CS103",
+      "title": "CS3000.MERGED.202410",
+      "name": "Algorithms and Data",
+      "number": "CS3000",
+      "section": "MERGED",
+      "term": "Spring 2023 Semester",
+      "color": "orchid"
+    },
+    {
+      "_id": "CS104",
+      "title": "THTR1101.10305.202410",
+      "name": "Intro to Theatre",
+      "number": "THTR1101",
+      "section": "10305",
+      "term": "Fall 2023 Semester",
+      "color": "olive"
+    }
+]
+  

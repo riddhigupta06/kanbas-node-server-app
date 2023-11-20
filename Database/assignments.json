@@ -1,0 +1,183 @@
+[
+    { 
+      "_id": "A101", 
+      "title": "A1 - ENV + HTML", 
+      "description": "This assignment describes how to install the development environment for creating and working with web applications we will be developing this semester. We will add new content every week, pushing the code to Github source respository, and then deploying the content to a remote server hosted by Netlify.",
+      "course": "CS101",
+      "due": "Sep 18, 2023 at 11:59pm",
+      "points": 100,
+      "startDate": "2023-09-06",
+      "endDate": "2023-09-18"
+    },
+    { 
+      "_id": "A102", 
+      "title": "A2 - CSS + BOOTSTRAP", 
+      "description": "This assignment describes how to work with CSS and Bootstrap.",
+      "course": "CS101",
+      "due": "Oct 2, 2023 at 11:59pm",
+      "points": 100,
+      "startDate": "2023-09-06",
+      "endDate": "2023-10-02"
+    },
+    { 
+      "_id": "A103", 
+      "title": "A3 - JS + REACT", 
+      "description": "This assignment describes how to work with JS and React.",
+      "course": "CS101",
+      "due": "Oct 16, 2023 at 11:59pm",
+      "points": 100,
+      "startDate": "2023-10-01",
+      "endDate": "2023-10-16"
+    },
+    { 
+      "_id": "A104", 
+      "title": "A4 - STATE + REDUX", 
+      "description": "This assignment describes how to work with state and redux.",
+      "course": "CS101",
+      "due": "Oct 30, 2023 at 11:59pm",
+      "points": 100,
+      "startDate": "2023-10-15",
+      "endDate": "2023-10-30"
+    },
+    { 
+      "_id": "A105", 
+      "title": "A5 - NODE + SESSION", 
+      "description": "This assignment describes how to work with node and sessions.",
+      "course": "CS101",
+      "due": "Nov 18, 2023 at 11:59pm",
+      "points": 100,
+      "startDate": "2023-10-29",
+      "endDate": "2023-11-18"
+    },
+    { 
+      "_id": "A106", 
+      "title": "A6 - MONGO", 
+      "description": "This assignment describes how to work with Mongo",
+      "course": "CS101",
+      "due": "Nov 26, 2023 at 11:59pm",
+      "points": 100,
+      "startDate": "2023-11-17",
+      "endDate": "2023-11-26"
+    },
+    { 
+      "_id": "A201", 
+      "title": "Position Paper Topic 1", 
+      "description": "Write your position paper on topic 1.",
+      "course": "CS102",
+      "due": "Sep 28, 2023 at 11:59pm",
+      "points": 80,
+      "startDate": "2023-09-06",
+      "endDate": "2023-09-28"
+    },
+    { 
+      "_id": "A202", 
+      "title": "Position Paper Topic 2", 
+      "description": "Write your position paper on topic 2.",
+      "course": "CS102",
+      "due": "Oct 28, 2023 at 11:59pm",
+      "points": 100,
+      "startDate": "2023-10-06",
+      "endDate": "2023-10-28"
+    },
+    { 
+      "_id": "A203", 
+      "title": "Position Paper Topic 3", 
+      "description": "Write your position paper on topic 3.",
+      "course": "CS102",
+      "due": "Nov 28, 2023 at 11:59pm",
+      "points": 150,
+      "startDate": "2023-11-06",
+      "endDate": "2023-11-28"
+    },
+    { 
+      "_id": "A301", 
+      "title": "Homework 1", 
+      "description": "Submit HW 1 here.",
+      "course": "CS103",
+      "due": "Jan 21, 2023 at 11:59pm",
+      "points": 40,
+      "startDate": "2023-01-14",
+      "endDate": "2023-01-21"
+    },
+    { 
+      "_id": "A302", 
+      "title": "Homework 2", 
+      "description": "Submit HW 2 here.",
+      "course": "CS103",
+      "due": "Jan 28, 2023 at 11:59pm",
+      "points": 40,
+      "startDate": "2023-01-21",
+      "endDate": "2023-01-28"
+    },
+    { 
+      "_id": "A303", 
+      "title": "Homework 3", 
+      "description": "Submit HW 3 here.",
+      "course": "CS103",
+      "due": "Feb 11, 2023 at 11:59pm",
+      "points": 40,
+      "startDate": "2023-01-14",
+      "endDate": "2023-02-11"
+    },
+    { 
+      "_id": "A304", 
+      "title": "Homework 4", 
+      "description": "Submit HW 5 here.",
+      "course": "CS103",
+      "due": "Feb 24, 2023 at 11:59pm",
+      "points": 40,
+      "startDate": "2023-02-11",
+      "endDate": "2023-02-24"
+    },
+    { 
+      "_id": "A305", 
+      "title": "Homework 5", 
+      "description": "Submit HW 5 here.",
+      "course": "CS103",
+      "due": "Mar 9, 2023 at 11:59pm",
+      "points": 40,
+      "startDate": "2023-02-25",
+      "endDate": "2023-03-09"
+    },
+    { 
+      "_id": "A401", 
+      "title": "Paper 1: Style Analysis", 
+      "description": "Submit your paper on Sisterhood of the Survivors here.",
+      "course": "CS104",
+      "due": "Oct 19, 2023 at 11:59pm",
+      "points": 100,
+      "startDate": "2023-10-05",
+      "endDate": "2023-10-19"
+    },
+    { 
+      "_id": "A402", 
+      "title": "Midterm Exam", 
+      "description": "Complete your midterm exam.",
+      "course": "CS104",
+      "due": "Oct 26, 2023 at 11:59pm",
+      "points": 50,
+      "startDate": "2023-10-15",
+      "endDate": "2023-10-26"
+    },
+    { 
+      "_id": "A403", 
+      "title": "Paper 2: Moors Review", 
+      "description": "Submit your optional paper on The Moors here.",
+      "course": "CS104",
+      "due": "Nov 20, 2023 at 11:59pm",
+      "points": 100,
+      "startDate": "2023-11-06",
+      "endDate": "2023-11-20"
+    },
+    { 
+      "_id": "A404", 
+      "title": "Final Exam", 
+      "description": "Complete your final exam.",
+      "course": "CS104",
+      "due": "Dev 6, 2023 at 11:59pm",
+      "points": 100,
+      "startDate": "2023-11-23",
+      "endDate": "2023-12-06"
+    }
+]
+  
