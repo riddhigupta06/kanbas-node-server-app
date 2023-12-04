@@ -27,6 +27,7 @@ function UserRoutes(app) {
         const status = await dao.updateUser(userId, req.body);
         const currentUser = await dao.findUserById(userId);
         req.session['currentUser'] = currentUser;
+        res.sendStatus(200)
     };
 
     const signup = async (req, res) => {
